@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'Lato-Light';
+    src: url('../fonts/Lato-Light.woff2') format('woff2'),
+        url('../fonts/Lato-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url('../fonts/Montserrat-Bold.woff2') format('woff2'),
+        url('../fonts/Montserrat-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Merriweather-Italic';
+    src: url('../fonts/Merriweather-Italic.woff2') format('woff2'),
+        url('../fonts/Merriweather-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Lato-Bold';
+    src: url('..fonts/Lato-Bold.woff2') format('woff2'),
+        url('../fonts/Lato-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Lato-LightItalic';
+    src: url('../fonts/Lato-LightItalic.woff2') format('woff2'),
+        url('../fonts/Lato-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Lato-Regular';
+    src: url('../fonts/Lato-Regular.woff2') format('woff2'),
+        url('../fonts/Lato-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('../fonts/Montserrat-Regular.woff2') format('woff2'),
+        url('../fonts/Montserrat-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
