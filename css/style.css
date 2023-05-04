@@ -138,7 +138,7 @@ nav a{
 .header-inner{
 	display: flex;
     justify-content: space-between;
-	padding-top: 45px;
+	padding: 45px 20px 30px;
     align-items: center;
 }
 .header-inner nav ul{
@@ -146,7 +146,7 @@ nav a{
 	gap: 65px;
 }
 .banner-text{
-	padding: 226px 0px 330px;
+	padding: 226px 0px 0px;
 	text-align: center;
 }
 .banner-text h1{
@@ -162,11 +162,17 @@ nav a{
 	max-width: 845px;
 	font-size: 26px;
 	margin: auto;
-	margin-bottom: 50px;
+	margin-bottom: 0px;
 	line-height: 2;
 	font-family: 'Merriweather-Italic';
 }
+.banner img{
+	display: block;
+    margin-inline: auto;
+    position: relative;
+    top: 58px;
 
+}
 /* ...css start for banner... */
 
 .quit-well{
@@ -183,6 +189,7 @@ nav a{
  .our-service a{
 	font-size: 18px;
     color: #fff;
+	display: inline-block;
     padding: 15px 38px 15px;
     background-color: #e5471f;
 	font-family: 'Lato-Bold';
@@ -198,7 +205,6 @@ nav a{
 /* avitor */
 .avitor{
 	text-align: center;
-    margin-top: -355px;
 }
 .avitor img{
 	max-width: 100%;
@@ -229,9 +235,9 @@ nav a{
 	margin: auto;
 	margin-bottom: 30px;
 }
-.service-card-image img{
+ .devleper-avitor img{
 	max-width: 100%;
-}
+} 
 .services-cards-item h3{
     margin-bottom: 25px;
     font-size: 24px;
@@ -246,7 +252,7 @@ nav a{
 	margin: 10px;
 }
 /*  ... css for steve-job ...*/
-.steve-jobs{
+.testimonial{
 	background-color: #e5471f;
 	padding: 80px 0px 80px;
 	position: relative;
@@ -266,23 +272,28 @@ nav a{
 }
 .stive-image-outer{
 	display: inline-block;
-    left: 180px;
+	left: 7vw;
     position: absolute;
 	top: 0px;
 
 }
-.stive-jobs-outer{
+.testimonial-inner{
 	display: flex;
     align-items: center;
     justify-content: center;
 }
-.stive-text-outer{
+.testimonial-inner{
 	text-align: center;
+	display: flex;
+	flex-direction: column;
 }
-.stive-text-outer a{
+.testimonial-inner a{
 	color: #fff;
 	font-family: 'Lato-Light';
 	font-size: 16px;
+}
+.stive-wrap{
+	display: flex;
 }
 .projects-agencies{
 	padding: 91px 0px 110px;
@@ -311,6 +322,9 @@ nav a{
 	display: flex;
 	flex-wrap: wrap;
     justify-content: space-between;
+	padding: 0px 20px 0px;
+	gap: 20px;
+	width: 100%;
 	
 }
 .projects-card-image{
@@ -336,14 +350,10 @@ nav a{
 	display: flex;
 	justify-content: space-between;
 }
-.projects-card-item{
-	border: 2px solid #efe1e1;
-    margin-bottom: 28px;
-    max-width: 362px;
-    width: 100%;
-}
+
 .card-title{
 	padding: 18px 14px 18px;
+	box-shadow: 1px 1px 5px -1px #0000002b;
 }
 .card-title a{
 	color: #000;
@@ -353,24 +363,24 @@ nav a{
 	font-family: 'Lato-Regular';
 }
 /* three-d-approch */
-.three-d-approch{
+.developer-approch{
 	background-color: #e5471f;
 	text-align: center;
 	padding-bottom: 100px;
 }
 
-.three-d-avitor img{
+.devleper-avitor img{
 	max-width: 100%;
 	margin-top: -77px;
 }
-.three-d-approch h2{
+.developer-approch h2{
 	font-size: 50px;
 	font-family: 'Montserrat-Bold';
 	color: #fff;
 	text-transform: uppercase;
 	margin-bottom: 100px;
 }
-.three-d-services{
+.developer-services{
 	display: flex;
 	justify-content: space-between;
 }
@@ -386,11 +396,11 @@ nav a{
 	font-family: 'Lato-Bold';
 	font-size: 24px;
 }
-.three-d-services .services-cards-item h3{
+.developer-services .services-cards-item h3{
 	color: #fff;
 	font-size: 20px;
 }
-.three-d-services .services-cards-item p{
+.developer-services .services-cards-item p{
 	color: #fff;
 	font-size: 15px;
 	line-height: 1.5;
@@ -476,61 +486,25 @@ footer a{
 	color: #fff;
 	font-size: 16px;
 }
-@media ( max-width: 1600px ){
-	.stive-image-outer {
-		left: 140px;
-	}
-	
+.projects-card-item{
+	width: 30%;
 }
-@media ( max-width: 1400px ){
-	.stive-image-outer {
-		left: 80px;
-	}
-}
-@media ( max-width: 1150px ){
-	.container {
-		max-width: 1142px;
-		margin: 0 auto;
-	}
-	header{
-		padding: 0px 20px 0px;
-	}
-	.banner{
-		padding: 0px 40px 0px;
-	}
-	.our-service {
-		padding: 115px 30px 70px;
-	}
-	.stive-image-outer {
-		left: 40px;
-	}
-	.projects-cards {
-		justify-content: center;
-		gap: 10px;
-	}
-	.three-d-approch {
-		padding-left: 20px;
-		padding-right: 20px;
-	}
-}
+
 @media ( max-width: 1024px ){
 	.container {
 		max-width: 980px;
 		margin: 0 auto;
 	}
+	
 	.banner{
 		padding: 0px 20px 0px;
 	}
 	.banner-text {
-		padding: 194px 0px 330px;
+		padding: 154px 0px 0px;
 		text-align: center;
 	}
 	.stive-image-outer {
 		left: 20px;
-	}
-	.projects-card-item{
-		max-width: 430px;
-		width: 100%;
 	}
 	.our-service {
 		padding: 90px 30px 60px;
@@ -551,14 +525,22 @@ footer a{
 		margin-bottom: 59px;
 	}
 	
-.three-d-approch h2 {
+.developer-approch h2 {
 	margin-bottom: 80px;
 }
-.three-d-approch {
+.developer-approch {
     padding-bottom: 80px;
 }
 footer {
 	padding: 30px 0px 30px;
+}
+.bulding-block h2 {
+    font-size: 47px;
+    margin-bottom: 35px;
+    line-height: 41px;
+}
+.bulding-block {
+    padding: 50px 0px 30px;
 }
 }
 
@@ -611,8 +593,8 @@ footer {
 	.three-d-service{
 		flex-direction: column;
 	}
-	.three-d-services {
-		align-items: center;
+	.developer-services {
+		align-items: flex-start;
 	}
 	.nav-buttom{
 	width: 100%;
@@ -665,7 +647,7 @@ footer {
 	.card-title {
 		padding: 12px 14px 12px;
 	}
-	.three-d-approch {
+	.developer-approch {
 		padding: 0px 40px 80px;
 	}
 	.block-section{
@@ -683,17 +665,19 @@ footer {
 	footer {
 		padding: 30px 0px 30px;
 	}
-}
-@media ( max-width: 879px){
-	.projects-card-item {
-		max-width: 330px;
-		width: 50%;
+	.hamburger {
+		top: 41px;
+		right: 13px;
 	}
-}
+	.projects-card-item {
+		width: 45%;
+	}
+} 
+
 @media ( max-width: 768px ){
 	.boxes-item {
-		height: 100px;
-		width: 100px;
+		height: 120px;
+		width: 120px;
 	}
 	.banner-text h1 {
 		font-size: 50px;
@@ -705,7 +689,7 @@ footer {
 		font-size: 18px;
 	}
 	.banner-text {
-		padding: 100px 0px 335px;
+		padding: 100px 0px 0px;
 	}
 	.header-inner nav ul {
 		gap: 8px;
@@ -728,7 +712,7 @@ footer {
 		margin-bottom: 20px;
 		font-size: 35px;
 	}
-	.stive-jobs-outer{
+	.testimonial-inner{
 		flex-direction: column;
 	}
 	.buttons-group {
@@ -743,23 +727,26 @@ footer {
 		}
 		.buttons-group a {
 			padding: 14px 50px 14px;
-		}	
+		}		
 		.projects-card-item {
 			max-width: 374px;
 			width: 100%;
-		}	
-		.three-d-services {
+			margin: auto;
+		}
+		.developer-services {
 			flex-direction: column;
 		}
-		.three-d-approch h2 {
+		.developer-approch h2 {
 			margin-bottom: 40px;
 			font-size: 30px;
 		}
-		.three-d-approch {
+		.developer-approch {
 			padding: 0px 40px 40px;
 		}
-		.services-cards-item {
+		.devleper-avitor img{
 			padding: 0px 0px 22px;
+			max-width: 70%;
+    		margin: auto;
 		}
 		.services-cards-item h3 {
 			margin-bottom: 14px;
@@ -772,12 +759,22 @@ footer {
 			margin-bottom: 40px;
 			line-height: 46px;
 		}
-		
-}
+		.block-section {
+			max-width: 444px;
+		}
+		.hamburger {
+			top: 41px;
+			right: 13px;
+		}
+		.projects-cards {
+			gap: 20px;
+			flex-direction: column;
+		}
+	}
 
 @media ( max-width: 481px){
 	.banner-text {
-		padding: 80px 0px 335px;
+		padding: 80px 0px 0px;
 	}
 	.banner-text h1 {
 		font-size: 40px;
@@ -825,6 +822,16 @@ footer {
 	.card-title a {
 		padding: 7px 8px 7px;
 		}
+		.projects-card-item {
+			width: 100%;
+		}
+		.hamburger {
+			top: 41px;
+			right: 13px;
+		}
+		.logo {
+			text-align: left;
+		}
 }
 
 @media ( max-width: 320px){
@@ -845,15 +852,15 @@ footer {
 		line-height: 46px;
 		font-size: 30px;
 	}
-	.three-d-approch h2 {
+	.developer-approch h2 {
 		margin-bottom: 20px;
 		font-size: 25px;
 	}
-	.three-d-approch h2 {
+	.developer-approch h2 {
 		margin-bottom: 15px;
 		font-size: 24px;
 	}
-	.three-d-approch {
+	.developer-approch {
 		padding: 0px 20px 40px;
 	}
 	.services-cards-item {
@@ -877,5 +884,8 @@ footer {
 		font-size: 16px;
 		margin-bottom: 10px;
 	}
-	
+	.header-inner {
+		padding: 5px 20px 0px;
 	}
+		
+}
